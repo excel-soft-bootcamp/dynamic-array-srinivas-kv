@@ -15,9 +15,9 @@ namespace DynamicArrayProgram
         {
             bufferArray = new int[6];
         }
-        public DynamicArray(int initialSize)
+        public DynamicArray(int add)
         {
-            bufferArray = new int[initialSize];
+            bufferArray = new int[add];
         }
 
 
